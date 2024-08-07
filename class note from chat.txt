@@ -1,0 +1,32 @@
+sudo timedatectl set-timezone Europe/Helsinki did the trick for me. Thank you Juho.
+
+Juho: 
+https://linuxize.com/post/how-to-set-or-change-timezone-on-ubuntu-20-04/
+
+https://bobcares.com/blog/virtualbox-ssh-nat/
+
+Jamk VM for putty
+menom@192.168.1.10
+
+1. tar -cf dir2.tar dir2
+gzip -k --suffix=.gz dir2.tar
+Final: tar --create --gzip --file dir2.tar.gz dir2
+
+2. vim File2.txt
+  Text(edit): This file is opened with VIM.
+
+  yey. huhhhhrah. banzai. kiitos.
+Esc:w FileInVim.txt (enter)
+:q!(enter)
+
+3. less FileInVim.txt
+/(search text)
+
+4. download: wget http://student.labranet.jamk.fi/~hantt/apache/httpd-2.4.41.tar.gz
+   Extract: tar -zvxf httpd-2.4.41.tar.gz
+
+5. cd httpd-2.4.41
+   vim CHANGES
+   head -18 CHANGES
+
+6. tail -F /var/log/kern.log
